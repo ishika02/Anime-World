@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel = "stylesheet" href = "style.css">
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" 
+    rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Anime World Series</title>
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class = "navbar-container" >
+            <div class = "logo-container" > 
+                <h1 class = "logo"> Anime</h1>
+             </div>
+            <div class = "menu-container" > 
+                <ul class = "menu-list">
+                    <li class="menu-list-item active"> <a href="index.html"> Home</a> </li>
+                    <li class="menu-list-item"> <a href="movies.html"> Movies</a> </li>
+                    <li class="menu-list-item"> <a href="series.html"> Series </a> </li>
+                    <li class="menu-list-item"> <a href="popular.html"> Popular </a> </li>
+                    
+                    
+                </ul>
+
+            </div>
+            <div class = "profile-container" > 
+                <img class = "profile-picture" src = "Images/ProfileIcon.jpg" alt = "">
+                <div class="profile-text-container"> 
+                    <span class = "profile-text"> Profile </span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class ="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sidebar">
+        <!-- <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass"></i>
+        <i class="left-menu-icon fa-solid fa-cart-arrow-down"></i> -->
+     </div>
+
+     <div class="container">
+        <div class="content-container">
+           <div class="featured-content" 
+           style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('Images/demon\ land.jpg');"
+           >
+           <img class="featured-title" src="Images/demon logo.png" alt="">
+           <p class="featured-desc">Since ancient times, rumors have abounded of man-eating demons lurking in the woods.
+                Because of this, the local townsfolk never venture outside at night. Legend has it that a demon slayer also roams the night.               
+           </p>
+           <button class="featured-button"><a href="Demon Slayer Series.html"> Watch </a></button>          
+           </div>
+           <div class="movie-list-container">
+            <h1 class="movie-list-title"> Most Watched Anime Series </h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Fullmetal Alchemist Brotherhood.jpg" alt="">
+                        <span class = "movie-list-item-title"> Fullmetal  </span>
+                        <p class="movie-list-item-desc">
+                            When a failed alchemical ritual leaves brothers Edward and Alphonse Elric with severely damaged bodies, 
+                            they begin searching for the one thing that can save them; the fabled philosopher's stone.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="FullMetal.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Death Note.jpeg" alt="">
+                        <span class = "movie-list-item-title"> Death Note </span>
+                        <p class="movie-list-item-desc">
+                            An intelligent high school student goes on a secret crusade to eliminate criminals from the world 
+                            after discovering a notebook capable of killing anyone whose name is written into it.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Death Note.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Cowboy Bebop.jpg" alt="">
+                        <span class = "movie-list-item-title"> Cowboy Bebop </span>
+                        <p class="movie-list-item-desc">
+                            Set in 2071, in a post-apocalyptic world where Earth has become largely uninhabitable, 
+                            the story follows a ragtag group of bounty hunters, known as cowboys, aboard the spaceship “Bebop.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="CowBoy Movie.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Bleach.jpeg" alt="">
+                        <span class = "movie-list-item-title"> Bleach </span>
+                        <p class="movie-list-item-desc">
+                            It follows the adventures of the hotheaded teenager Ichigo Kurosaki, 
+                            who inherits his parents' destiny after he obtains the powers of a Soul Reaper.                            
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Bleach.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Naruto.jpg" alt="">
+                        <span class = "movie-list-item-title"> Naruto </span>
+                        <p class="movie-list-item-desc">
+                            It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and 
+                            dreams of becoming the Hokage, the leader of his village
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Naruto.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Dragon Ball Z.jpg" alt="">
+                        <span class = "movie-list-item-title"> Dragon Ball Z </span>
+                        <p class="movie-list-item-desc">
+                            The epic episodic adventure of Goku and the Z Warriors as 
+                            they defend the Earth and the Universe from super-powered fighters and monster
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Dragon Ball Z.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Trigun.jpg" alt="">
+                        <span class = "movie-list-item-title"> Trigun </span>
+                        <p class="movie-list-item-desc">
+                            Vash the Stampede, a famous gunman who is constantly fighting bounty hunters seeking to obtain the immense bounty on his head
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Trigun.html"> Watch </a> </button>
+                    </div>                    
+                </div>
+                <i class="fa-solid fa-chevron-right arrow "></i>
+            </div>
+        </div>   
+        
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"> Trending Anime Series </h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Attack On Titan.jpg" alt="">
+                        <span class = "movie-list-item-title"> Attack On Titan </span>
+                        <p class="movie-list-item-desc">
+                            the story follows Eren Yeager, who vows to exterminate the Titans after 
+                            they bring about the destruction of his hometown and the death of his mother                          
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Attack On Titan.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Death Note.jpeg" alt="">
+                        <span class = "movie-list-item-title"> Death Note </span>
+                        <p class="movie-list-item-desc">
+                            An intelligent high school student goes on a secret crusade to eliminate criminals from the world 
+                            after discovering a notebook capable of killing anyone whose name is written into it.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Death Note.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Fullmetal Alchemist Brotherhood.jpg" alt="">
+                        <span class = "movie-list-item-title"> Fullmetal  </span>
+                        <p class="movie-list-item-desc">
+                            When a failed alchemical ritual leaves brothers Edward and Alphonse Elric with severely damaged bodies, 
+                            they begin searching for the one thing that can save them; the fabled philosopher's stone.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="FullMetal.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/One Punch Man.jpg" alt="">
+                        <span class = "movie-list-item-title"> One Punch Man </span>
+                        <p class="movie-list-item-desc">
+                            The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="One Punch Man.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/My Hero Academia.jpg" alt="">
+                        <span class = "movie-list-item-title"> My Hero </span>
+                        <p class="movie-list-item-desc">
+                            A superhero-loving boy without any powers is determined to enroll in a prestigious hero academy and learn what it really means to be a hero.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="My Hero Academia.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Tokyo Ghoul.jpg" alt="">
+                        <span class = "movie-list-item-title"> Tokyo Ghoul </span>
+                        <p class="movie-list-item-desc">
+                            A Tokyo college student is attacked by a ghoul, a superpowered human who feeds on human flesh.
+                             He survives, but has become part ghoul and becomes a fugitive on the run.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Tokyo Ghoul.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Hunter X Hunter.jpg" alt="">
+                        <span class = "movie-list-item-title"> Hunter X </span>
+                        <p class="movie-list-item-desc">
+                            Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. 
+                            With his friends and his potential, he seeks for his father who left him when he was younger.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Hunter X Hunter.html"> Watch </a> </button>
+                    </div>                    
+                </div>
+                <i class="fa-solid fa-chevron-right arrow "></i>
+            </div>
+        </div>
+
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"> Top 10 Anime Series </h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Demon Slayer.jpg" alt="">
+                        <span class = "movie-list-item-title"> Demon Slayer </span>
+                        <p class="movie-list-item-desc">
+                            A family is attacked by demons and only two members survive - 
+                            Tanjiro and his sister Nezuko, who is turning into a demon slowly..                              
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Demon Slayer Series.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/One Piece.jpg" alt="">
+                        <span class = "movie-list-item-title"> One Piece  </span>
+                        <p class="movie-list-item-desc">
+                            the story of Monkey D. Luffy, a young man who has a single dream: To find the legendary treasure known as the One Piece 
+                            and become the King of the Pirates.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="One Piece.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Re Zero.jpg" alt="">
+                        <span class = "movie-list-item-title"> Re-Zero </span>
+                        <p class="movie-list-item-desc">
+                            Subaru Natsuki is an ordinary high school student who is lost in an alternate world, 
+                            where he is rescued by a beautiful, silver-haired girl. 
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Re Zero.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Pokemon.jpg" alt="">
+                        <span class = "movie-list-item-title"> Pokemon </span>
+                        <p class="movie-list-item-desc">
+                            Ash Ketchum, his yellow pet Pikachu, and his human friends explore a world of powerful creatures
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Pokemon.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Violet Evergarden.jpg" alt="">
+                        <span class = "movie-list-item-title"> Evergarden </span>
+                        <p class="movie-list-item-desc">
+                            Former soldier Violet Evergarden tutors a young lady at a private women's academy, 
+                            but still grieves for the only person who ever brought her happiness.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Violet Evergarden.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Naruto.jpg" alt="">
+                        <span class = "movie-list-item-title"> Naruto </span>
+                        <p class="movie-list-item-desc">
+                            It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from 
+                            his peers and dreams of becoming the Hokage, 
+                            the leader of his village.                           
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Naruto.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Paranoia Agent.jpg" alt="">
+                        <span class = "movie-list-item-title"> Paranoia Agent </span>
+                        <p class="movie-list-item-desc">
+                            a social phenomenon in Musashino, Tokyo caused by a juvenile serial assailant named Lil' Slugger.                            
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Paranoia Agent.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Ergo Proxy.jpg" alt="">
+                        <span class = "movie-list-item-title"> Ergo Proxy </span>
+                        <p class="movie-list-item-desc">
+                            It is set in a post-apocalyptic utopian future where humans and AutoReiv androids coexist
+                            peacefully until a virus gives the androids self-awareness, 
+                            causing them to commit a series of murders.                             
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Ergo Proxy.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Black Clover.jpg" alt="">
+                        <span class = "movie-list-item-title"> Black Clover </span>
+                        <p class="movie-list-item-desc">
+                            Asta, a young orphan who is left to be raised in an orphanage alongside his fellow orphan, Yuno.                            
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Black Clover.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Assassination Classroom.jpg" alt="">
+                        <span class = "movie-list-item-title"> Assassination </span>
+                        <p class="movie-list-item-desc">
+                            Students must kill an octopus-like alien who portrays a teacher. 
+                            Otherwise, he will destroy the Earth once the school year is over.                           
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Assassnination Classroom.html"> Watch </a> </button>
+                    </div>
+
+                                       
+                </div>
+                <i class="fa-solid fa-chevron-right arrow "></i>
+            </div>
+        </div>
+
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"> Anime For Beginner </h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Death Note.jpeg" alt="">
+                        <span class = "movie-list-item-title"> Death Note </span>
+                        <p class="movie-list-item-desc">
+                            a high school student who comes across a supernatural notebook, 
+                            realizing it holds within it a great power                              
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Death Note.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Fullmetal Alchemist Brotherhood.jpg" alt="">
+                        <span class = "movie-list-item-title"> Fullmetal  </span>
+                        <p class="movie-list-item-desc">
+                            Edward and Alphonse Elric, who want to restore their bodies after a disastrous failed 
+                            attempt to bring their mother back to life through alchemy.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="FullMetal.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Cowboy Bebop.jpg" alt="">
+                        <span class = "movie-list-item-title"> Cowboy Bebop </span>
+                        <p class="movie-list-item-desc">
+                            A ragtag crew of bounty hunters chases down the galaxy's most dangerous criminals. 
+                            They'll save the world--for the right price.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="CowBoy Movie.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Pokemon.jpg" alt="">
+                        <span class = "movie-list-item-title"> Pokemon </span>
+                        <p class="movie-list-item-desc">
+                            Ash Ketchum, his yellow pet Pikachu, and his human friends explore a world of powerful creatures
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Pokemon.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Attack On Titan.jpg" alt="">
+                        <span class = "movie-list-item-title"> Attack On Titan </span>
+                        <p class="movie-list-item-desc">
+                            After his hometown is destroyed and his mother is killed, 
+                            young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans 
+                            that have brought humanity to the brink of extinction.
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Attack On Titan.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Sword Art Online.jpg" alt="">
+                        <span class = "movie-list-item-title"> Swords Art </span>
+                        <p class="movie-list-item-desc">
+                            In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.                           
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Sword Art Online.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Code Geass.jpg" alt="">
+                        <span class = "movie-list-item-title"> Code Geass </span>
+                        <p class="movie-list-item-desc">
+                            After being given a mysterious power to control others, 
+                            an outcast prince becomes the masked leader of the rebellion against an all powerful empire                            
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Code Geass.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/One Punch Man.jpg" alt="">
+                        <span class = "movie-list-item-title"> One Punch Man </span>
+                        <p class="movie-list-item-desc">
+                            The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch.                          
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="One Punch Man.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/The Promised Neverland.jpg" alt="">
+                        <span class = "movie-list-item-title"> Promised Neverland </span>
+                        <p class="movie-list-item-desc">
+                            When three gifted kids at an isolated idyllic orphanage discover the secret and sinister purpose they were raised for, 
+                            they look for a way to escape from their evil caretaker and lead the other children in a risky escape plan.                        
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="The Promised Neverland.html"> Watch </a> </button>
+                    </div>
+
+                    <div class="movie-list-item">
+                        <img class = "movie-list-item-img" src="Images/Dr Stone.jpg" alt="">
+                        <span class = "movie-list-item-title"> Dr Stone </span>
+                        <p class="movie-list-item-desc">
+                            Awakened into a world where humanity has been petrified, 
+                            scientific genius Senku and his brawny friend Taiju use their skills to rebuild civilization.                           
+                        </p>
+                        <button class = "movie-list-item-button"> <a href="Dr Stone.html"> Watch </a> </button>
+                    </div>
+
+                                       
+                </div>
+                <i class="fa-solid fa-chevron-right arrow "></i>
+            </div>
+        </div>
+
+        
+        
+
+
+
+        <script src="app.js"></script>
+    
+    
+</body>
+</html>
